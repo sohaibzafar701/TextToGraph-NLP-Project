@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP Knowledge Graph</title>
+    <link rel="stylesheet" href="static/css/styles.css"> 
+</head>
+<body>
+    <h1>NLP Knowledge Graph Generator</h1>
+    <form action="/process" method="POST">
+        <label for="option">Choose an option:</label><br>
+        <select id="option" name="option">
+            <option value="short_text">Short Text to Knowledge Base</option>
+            <option value="long_text">Long Text to Knowledge Base</option>
+            <option value="wikipedia">Wikipedia</option>
+        </select><br><br>
+        <label for="text">Enter your text:</label><br>
+        <textarea id="text" name="text" rows="10" cols="50"></textarea><br><br>
+        <input type="submit" value="Start">
+    </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP Knowledge Graph</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <style>
+        /* Additional styles for the button */
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+            background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #fff;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <h1>Welcome to the NLP Knowledge Graph Generator</h1>
+        <p>This tool allows you to generate knowledge graphs from text inputs. Whether it's a short piece of text, a longer document, or even content from Wikipedia, this tool has got you covered.</p>
+        <!-- <a href="#" class="button">Use the Tool</a> -->
+    </div>
+    
+    <div class="container">
+        <h2>Generate Knowledge Graph</h2>
+        <form action="/process" method="POST">
+            <label for="option">Choose an option:</label><br>
+            <select id="option" name="option">
+                <option value="short_text">Short Text to Knowledge Base</option>
+                <option value="long_text">Long Text to Knowledge Base</option>
+                <option value="wikipedia">Wikipedia</option>
+            </select><br><br>
+            <label for="text">Enter your text:</label><br>
+            <textarea id="text" name="text" rows="10" cols="50"></textarea><br><br>
+            <input type="submit" value="Start">
+        </form>
+    </div>
+</body>
+</html>
+
