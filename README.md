@@ -164,6 +164,25 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **Flask**: For the web framework.
 - **Tailwind CSS**: For the responsive, modern interface.
 
+## Demo Screenshots
+- Index Page:
+<p align="center">
+  <img src="https://github.com/sohaibzafar701/TextToGraph-NLP-Project/blob/main/static/index.PNG"</img>
+  <br><br>
+</p>
+
+- Short Text Knowlede Graph:
+<p align="center">
+  <img src="https://github.com/sohaibzafar701/TextToGraph-NLP-Project/blob/main/static/short%20text%20knowldge%20graph.PNG"</img>
+  <br><br>
+</p>
+
+- Long Text Knowledge Graph:
+<p align="center">
+  <img src="https://github.com/sohaibzafar701/TextToGraph-NLP-Project/blob/main/static/long%20text%20knowledge%20graph.PNG"</img>
+  <br><br>
+</p>
+
 ---
 *Built with ❤️ by Sohaib Zafar*  
 *Last updated: June 2025*
